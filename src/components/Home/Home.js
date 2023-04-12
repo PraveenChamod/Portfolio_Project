@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./Home.css";
-import "/Online_Portfolio/portfolio/src/App.css";
-import logo from "/Online_Portfolio/portfolio/src/img/MinePCM.png";
+import "../../App.css";
+import logo from "../../img/MinePCM.png";
 
 export default function Home() {
   //fixed Header

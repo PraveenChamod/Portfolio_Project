@@ -1,5 +1,5 @@
 import React from "react";
-import footerImg from "/Online_Portfolio/portfolio/src/img/MinePCM.png";
+import footerImg from "../../img/MinePCM.png";
 function Footer() {
   return (
     <div

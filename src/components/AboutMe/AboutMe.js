@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutMe.css";
-import "/Online_Portfolio/portfolio/src/App.css";
-import aboutImg from "/Online_Portfolio/portfolio/src/img/praveen6.png";
+import "../../App.css";
+import aboutImg from "../../img/praveen6.png";
 function AboutMe() {
   //Up to Top Btn
   window.addEventListener("scroll", function () {

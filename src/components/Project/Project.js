@@ -1,8 +1,8 @@
 import React from "react";
 import "./Project.css";
-import Project1 from "/Online_Portfolio/portfolio/src/img/portfolio-1.jpg";
-import Project2 from "/Online_Portfolio/portfolio/src/img/portfolio-2.jpg";
-import Project3 from "/Online_Portfolio/portfolio/src/img/portfolio-3.jpg";
+import Project1 from "../../img/portfolio-1.jpg";
+import Project2 from "../../img/portfolio-2.jpg";
+import Project3 from "../../img/portfolio-3.jpg";
 
 function Project() {
   return (
