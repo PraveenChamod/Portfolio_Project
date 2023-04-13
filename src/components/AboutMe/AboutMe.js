@@ -6,8 +6,12 @@ function AboutMe() {
   //Up to Top Btn
   window.addEventListener("scroll", function () {
     const upToTop = document.querySelector("a.bottom__to__top");
-    upToTop.classList.toggle("active", window.scrollY > 0);
+    upToTop.classList.toggle(
+      "active",
+      window.scrollY > 0,
+    );
   });
+  
   return (
     <div className="about component__space__about" id="About">
       <div className="container">
