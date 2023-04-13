@@ -14,6 +14,10 @@ li.nav__items {
   text-decoration: underline;
   text-decoration-color: #29e2cc;
 }
+.sideNavbar:hover {
+  text-decoration: underline;
+  text-decoration-color: #29e2cc;
+}
 .nav__items:active {
     color: #fffffb;
   }
@@ -66,9 +70,9 @@ ul.sidebar.d__flex {
   height: 100%;
   position: fixed;
   right: 0%;
-  background: #010101;
+  background: #303441;
   justify-content: center;
-  width: 300px;
+  width: 240px;
   top: 0%;
   flex-direction: column;
 }

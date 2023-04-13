@@ -9,7 +9,7 @@ export default function Home() {
     const header = document.querySelector(".header");
     header.classList.toggle("active", window.scrollY > 0);
   });
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(false);
   return (
     <div className="home" id="Home">
       <div className="home_bg">
@@ -36,11 +36,11 @@ export default function Home() {
           <div className="toggle__menu">
             <svg onClick={() => setShow(!show)}
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
+              width="20"
+              height="20"
               fill="currentColor"
               class="bi bi-justify white pointer"
-              viewBox="0 0 16 16"
+              viewBox="0 0 20 20"
             >
               <path
                 fill-rule="evenodd"
@@ -52,16 +52,16 @@ export default function Home() {
           <div className="sideNavbar">
             <ul className="sidebar d__flex">
               <li className="sideNavbar">
-                <a href="#home">Home</a>
+                <a href="#Home">Home</a>
               </li>
               <li className="sideNavbar">
-                <a href="#about">About</a>
+                <a href="#About">About</a>
               </li>
               <li className="sideNavbar">
-                <a href="#contact">Projects</a>
+                <a href="#Projects">Projects</a>
               </li>
               <li className="sideNavbar">
-                <a href="#contact">Contact</a>
+                <a href="#Contact">Contact</a>
               </li>
             </ul>
           </div>
