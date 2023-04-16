@@ -50,7 +50,7 @@ textarea#message {
 }
 button.btn.contact.pointer {
   margin: 20px 0px;
-  background: #29e2cc;
+  background: linear-gradient(to right, #29e2cc, #00badc);
   border: 2px solid #29e2cc;
 }
 button.btn.contact.pointer:hover {
