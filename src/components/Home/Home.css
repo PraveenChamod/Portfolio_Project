@@ -19,8 +19,8 @@ li.nav__items {
   text-decoration-color: #29e2cc;
 }
 .nav__items:active {
-    color: #fffffb;
-  }
+  color: #fffffb;
+}
 .home__content {
   padding: 125px 0px;
 }
