@@ -1,15 +1,15 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import "../../App.css";
 import logo from "../../img/MinePCM.png";
-
+import { Link } from "react-scroll";
 export default function Home() {
   //fixed Header
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
     header.classList.toggle("active", window.scrollY > 0);
   });
-    const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);
   return (
     <div className="home" id="Home">
       <div className="home_bg">
@@ -19,22 +19,39 @@ export default function Home() {
           </div>
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
-              <a href="#Home">
-                <li className="nav__items mx__15">Home</li>
-              </a>
-              <a href="#About">
-                <li className="nav__items mx__15">About</li>
-              </a>
-              <a href="#Projects">
-                <li className="nav__items mx__15">Projects</li>
-              </a>
-              <a href="#Contact">
-                <li className="nav__items mx__15">Contact</li>
-              </a>
+              <li className="nav__items mx__15">
+                <a href="#Home">
+                  <Link to="Home" spy={true} smooth={true}>
+                    Home
+                  </Link>
+                </a>
+              </li>
+              <li className="nav__items mx__15">
+                <a href="#About">
+                  <Link to="About" spy={true} smooth={true}>
+                    About
+                  </Link>
+                </a>
+              </li>
+              <li className="nav__items mx__15">
+                <a href="#Projects">
+                  <Link to="Projects" spy={true} smooth={true}>
+                    Projects
+                  </Link>
+                </a>
+              </li>
+              <li className="nav__items mx__15">
+                <a href="#Contact">
+                  <Link to="Contact" spy={true} smooth={true}>
+                    Contact
+                  </Link>
+                </a>
+              </li>
             </ul>
           </div>
           <div className="toggle__menu">
-            <svg onClick={() => setShow(!show)}
+            <svg
+              onClick={() => setShow(!show)}
               xmlns="http://www.w3.org/2000/svg"
               width="20"
               height="20"
@@ -48,23 +65,39 @@ export default function Home() {
               />
             </svg>
           </div>
-          {show ?(
-          <div className="sideNavbar">
-            <ul className="sidebar d__flex">
-              <li className="sideNavbar">
-                <a href="#Home">Home</a>
-              </li>
-              <li className="sideNavbar">
-                <a href="#About">About</a>
-              </li>
-              <li className="sideNavbar">
-                <a href="#Projects">Projects</a>
-              </li>
-              <li className="sideNavbar">
-                <a href="#Contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+          {show ? (
+            <div className="sideNavbar">
+              <ul className="sidebar d__flex">
+                <li className="sideNavbar">
+                  <a href="#Home">
+                    <Link to="Home" spy={true} smooth={true}>
+                      Home
+                    </Link>
+                  </a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#About">
+                    <Link to="About" spy={true} smooth={true}>
+                      About
+                    </Link>
+                  </a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#Projects">
+                    <Link to="Projects" spy={true} smooth={true}>
+                      Projects
+                    </Link>
+                  </a>
+                </li>
+                <li className="sideNavbar">
+                  <a href="#Contact">
+                    <Link to="Contact" spy={true} smooth={true}>
+                      Contact
+                    </Link>
+                  </a>
+                </li>
+              </ul>
+            </div>
           ) : null}
         </div>
         {/*Home Content*/}
