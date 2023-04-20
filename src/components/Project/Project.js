@@ -10,10 +10,10 @@ function Project() {
       <div className="heading" data-aos="fade-down" data-aos-duration="1500">
         <h1 className="heading">My Latest Project</h1>
         <p className="heading p__color">
-          There are many variations of passages of Lorem Ipsum available,
+          In this section which including my latest software development projects,
         </p>
         <p className="heading p__color">
-          but the majority have suffered alteration.
+          additionally more information find in given url.
         </p>
       </div>
       <div className="container">
