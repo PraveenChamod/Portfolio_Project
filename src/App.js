@@ -7,6 +7,7 @@ import Project from './components/Project/Project';
 import Aos from 'aos';
 import {useEffect} from 'react';
 import ScrollToTop from './Hooks/ScrollToTop';
+import "aos/dist/aos.css";
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       disable: 'mobile',
       duration:1000
     });
-  }, [])
+  }, []);
+  
   useEffect(() => {
     const scrollToTop = ()=>{
       if(window.pageYOffset > 200)

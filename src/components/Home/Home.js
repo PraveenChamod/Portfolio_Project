@@ -14,10 +14,10 @@ export default function Home() {
     <div className="home" id="Home">
       <div className="home_bg">
         <div className="header d__flex align__items__center pxy__30">
-          <div className="logo">
+          <div className="logo" data-aos="fade-right" data-aos-duration="1500">
             <img src={logo} alt="" />
           </div>
-          <div className="navigation pxy__30">
+          <div className="navigation pxy__30" data-aos="fade-left" data-aos-duration="1500">
             <ul className="navbar d__flex">
               <li className="nav__items mx__15">
                 <a href="#Home">
@@ -101,7 +101,11 @@ export default function Home() {
           ) : null}
         </div>
         {/*Home Content*/}
-        <div className="container">
+        <div
+          className="container"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <div className="home__content">
             <div className="home__meta">
               <h1 className="home__text pz__10">WELCOME TO MY WORKSPACE</h1>
