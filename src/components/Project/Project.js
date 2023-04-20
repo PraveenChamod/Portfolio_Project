@@ -7,7 +7,7 @@ import Project3 from "../../img/portfolio-3.jpg";
 function Project() {
   return (
     <div className="project component__space" id="Projects">
-      <div className="heading">
+      <div className="heading" data-aos="fade-down" data-aos-duration="1500">
         <h1 className="heading">My Latest Project</h1>
         <p className="heading p__color">
           There are many variations of passages of Lorem Ipsum available,
@@ -18,7 +18,7 @@ function Project() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col__3__project">
+          <div className="col__3__project" data-aos="fade-right" data-aos-duration="1500">
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
@@ -37,7 +37,7 @@ function Project() {
               </div>
             </div>
           </div>
-          <div className="col__3__project">
+          <div className="col__3__project" data-aos="fade-up" data-aos-duration="1500">
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
@@ -56,7 +56,7 @@ function Project() {
               </div>
             </div>
           </div>
-          <div className="col__3__project">
+          <div className="col__3__project" data-aos="fade-left" data-aos-duration="1500">
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
@@ -71,7 +71,7 @@ function Project() {
                 <h4 className="project__text">
                   Getting tickets to the big show
                 </h4>
-                <a href="#" className="project__btn">
+                <a href="#" className="project__btn" data-aos="fade-up" data-aos-duration="1500">
                   View Details
                 </a>
               </div>
