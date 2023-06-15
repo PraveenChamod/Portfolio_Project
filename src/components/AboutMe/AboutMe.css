@@ -56,6 +56,10 @@ button.about.btn.pointer {
     font-size: 13px;
     transition: .4s ease;
 }
+h1.about__heading{
+    font-size: 30px;
+}
+
 }
 .component__space__about{
     padding: 100px 0px;
