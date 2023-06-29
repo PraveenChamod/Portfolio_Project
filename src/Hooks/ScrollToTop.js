@@ -1,8 +1,6 @@
-import {  faArrowAltCircleUp } from "@fortawesome/free-solid-svg-icons";
 import { useState,useEffect } from "react";
 import styled from "styled-components";
 import { FaArrowUp } from 'react-icons/fa';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const ScrollToTop = () => {
 
     const Icon = styled.div`
@@ -10,15 +8,15 @@ const ScrollToTop = () => {
             position: fixed;
             bottom: 20px;
             right: 20px;
-            font-size: 20px;
+            font-size: 10px;
             cursor: pointer;
             border: none;
             color: #fff;
             background: linear-gradient(to right, #29e2cc, #00badc);
             z-index: 4;
             border-radius: 50%;
-            width: 50px;
-            height: 50px;
+            width: 25px;
+            height: 25px;
             display: flex;
             justify-content: center;
             align-items: center;
